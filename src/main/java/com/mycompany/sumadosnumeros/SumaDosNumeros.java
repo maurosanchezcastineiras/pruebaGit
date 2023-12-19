@@ -10,6 +10,7 @@ import java.util.Scanner;
  *
  * @author aleja
  */
+
 public class SumaDosNumeros {
     
     public static void main(String[] args) {
