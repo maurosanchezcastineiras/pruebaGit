@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/cervezas.jpg");
+    background-size: cover;
+}
+
+form{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 16%;
+}
+
+p{
+    font-size: large;
+}
+
+button{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: #008080;
+    color: #ffffff;
+    font-size: 90%;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(194, 45, 45);
+    color: #008080;
+}
+
+input{
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 3px;
+    width: 40%;
+    height: 10%;
+}

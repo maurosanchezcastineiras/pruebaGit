@@ -1,0 +1,97 @@
+/* General Form Styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Paragraph and Label Styles */
+form p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+form p label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* Input Styles */
+form input[type="text"],
+form input[type="number"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="file"]:focus {
+    border-color: #007acc;
+    outline: none;
+}
+
+/* Button Styles */
+form button[type="submit"],
+form button[type="reset"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+form button[type="submit"] {
+    background-color: #007acc;
+    color: white;
+}
+
+form button[type="reset"] {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+form button[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+form button[type="reset"]:hover {
+    background-color: #e60000;
+}
+
+/* Add responsive styling for mobile devices */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    form p {
+        margin-bottom: 12px;
+    }
+
+    form input[type="text"],
+    form input[type="number"],
+    form input[type="file"] {
+        font-size: 14px;
+    }
+
+    form button[type="submit"],
+    form button[type="reset"] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

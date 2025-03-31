@@ -1,0 +1,173 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 0;
+    margin-top: 50px;
+    color: #333; 
+}
+
+h1, h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(14, 94, 14); 
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px; 
+    color: rgb(10, 95, 10);
+}
+
+button {
+    font-family: fantasy; 
+    background-color: #4CAF50;
+    color: rgb(130, 209, 130);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #45a049;
+    color: rgb(55, 102, 55)
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#farmacia {
+    position:absolute;
+    width: 130px;
+    height: 80px;
+    margin-top: 4px; 
+    right: 60px; 
+}
+
+#farmaciaLogo{
+    width: 280px;
+    height: auto;
+    right: 1000px; 
+}
+
+form {
+    background-color: rgb(109, 196, 109);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(12, 61, 12);
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+#categoriaSelect {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(91, 202, 91);
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#categoriaSelect option {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(47, 163, 47); 
+}
+
+#productosContainer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(13, 87, 13); 
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(13, 87, 13); 
+}
+
+.producto-img {
+    width: 100px; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.productos-tabla {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.producto-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.producto-item td {
+    margin-right: 20px;
+}
+
+.producto-img {
+    width: 100px; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#facturaItems {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#facturaItems table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#facturaItems th, #facturaItems td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#facturaItems th {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
