@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/lux/bootstrap.min.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <title>JuegoAdivinacionIvanATimarte</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center my-5">
+            <img src="img/logo.png">
+            <p class="lead">Encuentra las parejas y que la Fuerza te acompañe</p>
+        </div>
+        
+        <div id="juego" class="d-flex flex-wrap justify-content-center"></div>
+        
+        <div class="text-center mt-4">
+            <button class="btn btn-success" onclick="iniciaJuego()">Reiniciar</button>
+        </div>
+    </div>
+    <br/>
+
+    <div class="puntuacion">
+        <h4>Date prisa!!!!</h4>
+        <div class="progreso">
+            <div id="barraProgreso" class="barraProgreso" role="barraProgreso"></div>
+        </div>
+    </div>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
