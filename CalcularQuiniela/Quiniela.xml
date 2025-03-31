@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<partidos>
+  <partido>
+    <equipoLocal>Real Madrid</equipoLocal>
+    <equipoVisitante>Barcelona</equipoVisitante>
+    <golesLocal>2</golesLocal>
+    <golesVisitante>1</golesVisitante>
+    <fecha>2024-09-19</fecha>
+  </partido>
+
+  <partido>
+    <equipoLocal>Liverpool</equipoLocal>
+    <equipoVisitante>Manchester City</equipoVisitante>
+    <golesLocal>3</golesLocal>
+    <golesVisitante>3</golesVisitante>
+    <fecha>2024-09-18</fecha>
+  </partido>
+
+  <partido>
+    <equipoLocal>Bayern Munich</equipoLocal>
+    <equipoVisitante>PSG</equipoVisitante>
+    <golesLocal>1</golesLocal>
+    <golesVisitante>2</golesVisitante>
+    <fecha>2024-09-17</fecha>
+  </partido>
+
+  <partido>
+    <equipoLocal>Juventus</equipoLocal>
+    <equipoVisitante>Inter Milan</equipoVisitante>
+    <golesLocal>0</golesLocal>
+    <golesVisitante>1</golesVisitante>
+    <fecha>2024-09-16</fecha>
+  </partido>
+
+  <partido>
+    <equipoLocal>Chelsea</equipoLocal>
+    <equipoVisitante>Arsenal</equipoVisitante>
+    <golesLocal>4</golesLocal>
+    <golesVisitante>2</golesVisitante>
+    <fecha>2024-09-15</fecha>
+  </partido>
+</partidos>
