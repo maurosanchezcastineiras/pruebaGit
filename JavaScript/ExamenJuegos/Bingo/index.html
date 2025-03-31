@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bingooo.css" />
+    <title>BINGOOIVANATIMARTE</title>
+</head>
+<body>
+    <div className="alert alert-warning text-center">
+        <img className="logo" id="logo" src="img/bingooo.jpg" alt="Logo" width="100px">
+    </div>
+    <br>
+    <p className="lead text-center">Consigue tu cartón en PDF:</p>
+    <div className="text-center">
+        <form action="php/quieresUnPdf.php" method="post">
+            <button className="btn btn-warning" type="submit">
+                <img className="logo" id="PDF" src="img/pdf.png" alt="PDF" width="50px">
+            </button>
+        </form>
+    </div>
+    <p className="lead text-center">Comienza a jugar:</p>
+    <div className="text-center">
+        <form action="php/quieresJugarYa.php" method="post">
+            <button className="btn btn-info" type="submit">
+                <img className="logo" id="PLAY" src="img/play.png" alt="PLAY" width="50px">
+            </button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(red, blue, green, yellow);
+  background-repeat: no-repeat;
+  color: brown;
+}
+.sup{
+  text-align: center;
+}
+.inferior{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+.derecha{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 300px;
+  width: 50px;
+}
+.dInf{
+  position: absolute;
+  margin-left: 30px;
+  width: 80px;
+}
+
+button{
+  background-color: aqua;
+}
